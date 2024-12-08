@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Parlor</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Ice Cream Parlor</h1>
+    <div id="flavors">
+        <h2>Flavors</h2>
+        <div id="flavor-list"></div>
+        <input type="text" id="flavor-name" placeholder="Flavor Name">
+        <input type="checkbox" id="is-seasonal"> Seasonal
+        <button onclick="addFlavor()">Add Flavor</button>
+    </div>
+    <div id="ingredients">
+        <h2>Ingredients</h2>
+        <div id="ingredient-list"></div>
+        <input type="text" id="ingredient-name" placeholder="Ingredient Name">
+        <input type="number" id="ingredient-quantity" placeholder="Quantity">
+        <button onclick="addIngredient()">Add Ingredient</button>
+    </div>
+    <div id="suggestions">
+        <h2>Customer Suggestions</h2>
+        <input type="text" id="suggestion-flavor-name" placeholder="Flavor Name">
+        <input type="text" id="suggestion-allergen" placeholder="Allergen (optional)">
+        <button onclick="addSuggestion()">Submit Suggestion</button>
+    </div>
+    <div id="cart">
+        <h2>Cart</h2>
+        <div id="cart-list"></div>
+        <input type="text" id="cart-product-name" placeholder="Product Name">
+        <input type="number" id="cart-quantity" placeholder="Quantity">
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>

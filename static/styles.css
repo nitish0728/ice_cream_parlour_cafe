@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    color: #666;
+}
+#flavors, #ingredients, #suggestions, #cart {
+    margin-bottom: 20px;
+}
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+}
